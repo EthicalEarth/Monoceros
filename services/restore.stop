@@ -1,0 +1,4 @@
+#! /bin/bash
+cp /tmp/temperature_home.rrd /opt/monoceros/database/temperature_home.rrd
+echo "Database has been saved!"
+flite -t "Database has been saved! Power OFF" -voice slt

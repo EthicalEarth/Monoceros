@@ -1,0 +1,4 @@
+#! /bin/bash
+cp /opt/monoceros/database/temperature_home.rrd  /tmp/temperature_home.rrd
+echo "Database has been restored!"
+flite -t "Database has been restored!" -voice slt
